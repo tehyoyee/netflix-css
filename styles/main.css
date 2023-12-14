@@ -1,0 +1,219 @@
+@media (min-width: 1300px) {
+
+	.top-series-container {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		right: 0;
+		left: 0;
+		margin-top: 1vw;
+		height: 14vw;
+	}
+	.rank-poster-container {
+		display: flex;
+		position: relative;
+		flex-direction: row;
+		height: 11.5vw;
+		margin: 1vw;
+		align-items: center;
+	}
+	.top-series-rank {
+		position: relative;
+		width: 5vw;
+		z-index: 1;
+		right: 10%;
+		bottom: 46.7%;
+		font-size: 15.3vw;
+		height: inherit;
+		font-weight: 1000;
+		-webkit-text-stroke-width: 0.3vw;
+		-webkit-text-stroke-color: gray;
+	}
+	.top-series-poster {
+		position: relative;
+		top: 0px;
+		z-index: 2;
+		width: 8vw;
+		height: inherit;
+	}
+	.top-series-poster:hover {
+		cursor: pointer;
+		width: 16vw;
+		height: 200%;
+		margin-right: -8vw;
+		z-index:30000;
+	}
+	.main-container {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		z-index: 3000;
+		width: inherit;
+	}
+	.norank-poster-container {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.norank-poster {
+		position: relative;
+		width: 14.5vw;
+		height: inherit;
+		border-radius: 5px;
+		margin-right: 0.5vw;
+		z-index: 100;
+	}
+}
+
+@media (min-width: 850px) and (max-width: 1299px) {
+	.top-series-container {
+		display: flex;
+		flex-direction: row;
+		right: 0;
+		left: 0;
+		position: absolute;
+		margin-top: 1vw;
+		height: 14vw;
+	}
+	.rank-poster-container {
+		display: flex;
+		position: relative;
+		flex-direction: row;
+		height: 17vw;
+		margin: 3.5vw;
+		align-items: center;
+	}
+	.top-series-rank {
+		position: relative;
+		width: 4vw;
+		z-index: 1;
+		right: 32.4%;
+		bottom: 47%;
+		font-size: 22.8vw;
+		height: inherit;
+		font-weight: 1000;
+		-webkit-text-stroke-width: 0.5vw;
+		-webkit-text-stroke-color: gray;
+	}
+	.top-series-poster {
+		position: relative;
+		top: 0px;
+		z-index: 2;
+		width: 12vw;
+		height: inherit;
+	}
+	.top-series-poster:hover {
+		cursor: pointer;
+		width: 24vw;
+		height: 200%;
+		margin-right: -12vw;
+		z-index:30000;
+	}
+
+	.main-container {
+		position: absolute;
+		width: 100vw;
+	}
+	.norank-poster-container {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+	}
+	.norank-poster {
+		width: 21vw;
+		border-radius: 5px;
+		margin-right: 0.5vw;
+	}
+}
+
+@media (max-width: 849px) {
+	.top-series-container {
+		display: flex;
+		flex-direction: row;
+		right: 0;
+		left: 0;
+		position: absolute;
+		margin-top: 1vw;
+		height: 14vw;
+	}
+	.rank-poster-container {
+		display: flex;
+		position: relative;
+		flex-direction: row;
+		height: 23vw;
+		margin: 5.5vw;
+		align-items: center;
+	}
+	.top-series-rank {
+		position: relative;
+		width: 4vw;
+		z-index: 1;
+		right: 42.5%;
+		bottom: 47.5%;
+		font-size: 31.2vw;
+		height: inherit;
+		font-weight: 1000;
+		-webkit-text-stroke-width: 0.7vw;
+		-webkit-text-stroke-color: gray;
+	}
+	.top-series-poster {
+		position: relative;
+		top: 0px;
+		z-index: 2;
+		width: 16vw;
+		height: inherit;
+	}
+	.top-series-poster:hover {
+		cursor: pointer;
+		width: 32vw;
+		height: 200%;
+		margin-right: -16vw;
+		z-index:3;
+	}
+	
+	.main-container {
+		position: absolute;
+		width: 100vw;
+	}
+	.norank-poster-container {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+	}
+	.norank-poster {
+		width: 28vw;
+		border-radius: 5px;
+		margin-right: 0.5vw;
+	}
+}
+
+
+.sub-title {
+	position: relative;
+	font-size: 1.4vw;
+	z-index: 0;
+	color: white;
+	/* width: 100%; */
+	margin-bottom: 0.7vw;
+	margin-top: 6vw;
+}
+.sub-title2 {
+	position: relative;
+	font-size: 1.4vw;
+	z-index: 0;
+	color: white;
+	/* width: 100%; */
+
+	margin-top: 4vw;
+}
+.top-movie-container {
+	position: inherit;
+	position: absolute;
+}
+.inner-top-ten {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}

@@ -1,0 +1,167 @@
+@font-face {
+	font-family: BM_EUL10;
+	src: url("../fonts/BMEULJIRO10YEARS.ttf");
+}
+@font-face {
+	font-family: BM_HANNAPRO;
+	src: url("../fonts/BMHANNAPro.ttf");
+}
+
+.banner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
+.banner-image {
+	position: absolute;
+	width: 100%;
+	z-index: -100;
+	filter: brightness(55%);
+}
+
+.banner-story-title {
+	font-family: BM_EUL10;
+}
+.banner-story-content {
+	font-family: BM_EUL10;
+}
+.banner-story-container {
+	margin-top: 10vw;
+	font-family: BM_HANNAPRO;
+}
+
+@media (min-width: 1300px) {
+	.banner-story-container {
+		position: relative;
+		margin-top: 14vw;
+		margin-left: 60px;
+		width: 35vw;
+		z-index: 10;
+	}
+	.top-ten-title, .top-series-container {
+		margin-left: 60px;
+	}
+}
+
+@media (min-width: 850px) and (max-width: 1299px) {
+	.banner-story-container {
+		position: relative;
+		margin-left: 35px;
+		width: 35vw;
+		z-index: 10;
+	}
+	.top-ten-title, .top-series-container  {
+		margin-left: 40px;
+	}
+}
+
+@media (max-width: 849px) {
+	.banner-story-container {
+		position: relative;
+		margin-left: 30px;
+		width: 35vw;
+		z-index: 10;
+	}
+	.top-ten-title, .top-series-container  {
+		margin-left: 30px;
+	}
+}
+
+.banner-story-title {
+	color: white;
+	font-size: 7vw;
+}
+.banner-story-content {
+	color: white;
+	font-size: 1.7vw;
+}
+.play-info-container {
+	margin-top: 1.5vw;
+	display: flex;
+	align-items: center;
+	gap: 0.7vw;
+	width: 100%;
+}
+.play-container {
+	width: 8vw;
+	height: 3vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: white;
+	border-radius: 0.4vw;
+}
+.play-container:hover {
+	cursor: pointer;
+	background-color: rgb(178, 178, 178);
+}
+.play-button {
+	margin-left: 0.5vw;
+	display: flex;
+	width: 3vw;
+}
+.play-button-content {
+	color: black;
+	font-size: 1.3vw;
+	margin-right: 1vw;
+}
+.info-container {
+	background-color: rgb(128, 128, 128, 0.5);
+	width: 12vw;
+	height: 3vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 0.4vw;
+}
+
+.info-container:hover {
+	cursor: pointer;
+	background-color: rgb(61, 61, 61);
+}
+.info-circle {
+	width: 1.5vw;
+	height: 1.5vw;
+	background-color: rgb(128, 128, 128, 0.5);
+	border: solid;
+	border-radius: 50%;
+	border-color: white;
+	border-width: 0.2vw;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.1vw;
+	margin-left: 1vw;
+	color: white;
+}
+.info-circle-content {
+	color:white;
+	font-size: 1.3vw;
+	margin-right: 1vw;
+}
+.sound-mute-container {
+	display: flex;
+	position: relative;
+	left: 90vw;
+	bottom: 0vw;
+	height: 3vw;
+	width: 3vw;
+	border: 0.15vw solid white;
+	border-radius: 50%;
+	position: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sound-mute-container:hover {
+	background-color: gray;
+}
+.mute-image {
+	height: 1.7vw;
+	width: 2.7vw;
+}
+.top-ten-title {
+	position: relative;
+	color: white;
+	font-size: 1.4vw;
+}
